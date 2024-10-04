@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我叫李紫怡</title>
+    <style>
+         h1{
+        color: rgba(130, 130, 201, 0.895);
+        font-size: 50px;
+        text-shadow:3px 3px 3px #EDC6C1;
+         }
+         h2{
+        color: rgba(35, 35, 48, 0.763);
+        font-size: 20px;
+         }
+         body{
+            width: 2000px;
+            margin:auto;
+         }
+         header{
+            background-color:#EDC6C1;
+            height: 60px;
+         }
+        nav li{
+            list-style:none;
+            float: left;
+            line-height:70px;
+            margin-right:60px;
+         }
+        nav li a{
+        color: #607567;
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration:none;
+        }
+        nav li a:hover{
+        border-bottom:#85f39d 5px solid;
+        }
+        html {
+            height:120%;
+            width: 1400px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            background:linear-gradient(135deg,#b8e8d6,#EDC6C1);
+        }
+        p{
+            color: #729bb5d7;
+            font-size: 20px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+            text-shadow:1px 1px 1px #84b3d7;
+        }
+        p1{
+            color: #0d4ef1d7;
+            font-size: 20px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+            text-shadow:1px 1px 1px #f3ef20;
+        }
+        .container {
+            max-width: 1000px;
+            margin:auto;
+            padding: 20px;
+            align-items: center;
+        }
+
+        .login-form {
+            padding: 40px;
+            border-radius: 25px;
+            text-align: center;
+            width: 430px;
+            margin: auto;
+        }
+        
+        .login-form input {
+            width:70%;
+            padding: 15px;
+            margin-bottom:20px;
+            border-radius:20px;
+            border: none;
+            background:#E3F2FD;
+            box-shadow:inset 5px 5px 15px rgba(0，0，0，0.1);
+            font-size: 15px;
+            
+        }
+         
+         
+         .login-form button {
+            width:70%;
+            padding:15px ;
+            border: none;
+            align-items: center;
+          
+        }
+         </style>
+         <script lang="js" type="text/javascript" >
+            function f1(){
+                alert("嘻嘻其实上面就是完整个人介绍了XP");
+            }
+            function f2(){
+                alert("其实我还没学会做里面的内容");
+            }
+        </script>
+         </head>
+            <body>
+                <header>
+                    <nav>
+                    <ul>
+                        <li onclick="f2()"><a>首页</li>
+                        <li onclick="f2()"><a>我的学校</li>
+                        <li onclick="f2()"><a>兴趣爱好</li>
+                        <li onclick="f2()"><a>留言板</li>
+                    </ul>
+                    </div>
+                    </nav>
+            </header>
+               
+                <div class="container" align-items:'center'>
+                    <h1>Welcome to My Personal Website!</h1>
+                    <img src="\webapp\img\P1.PNG" height="300x" width="300px" style="float: left;">
+                    <p>&nbsp;&nbsp;&nbsp;姓名：李紫怡</p>
+                    <p>&nbsp;&nbsp;&nbsp;年龄：19</p>
+                    <p>&nbsp;&nbsp;&nbsp;学院：计算机与软件工程学院</p>
+                    <p>&nbsp;&nbsp;&nbsp;专业班级：信息安全1班</p>
+                    <p1>&nbsp;&nbsp;&nbsp;爱好：学习web全栈开发</p1>
+                    <p>&nbsp;&nbsp;&nbsp;……</p>
+                </div>
+                <div class="login-form">
+                <h2>请输入我的姓名学号以查看我的完整个人简介</h2>
+             
+                <input onclick="f1()" type="text" placeholder="Name" required>
+                <input onclick="f1()" type="password" placeholder="SchoolID" required>
+                <button onclick="f1()" type ="submit">Log in</button>
+                </form>
+                </div>
+                
+            </body>
+            </html>
